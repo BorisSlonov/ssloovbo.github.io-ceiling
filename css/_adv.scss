@@ -1,0 +1,40 @@
+.advantages {
+   background-color: #F0F0F0;
+}
+
+.advantages-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 100%;
+   text-align: center;
+   padding: 75px 0 125px;
+}
+
+.advantages-item {
+   padding: 55px 0;
+   flex-basis: 24%;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: baseline;
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+   &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+      transition: .8s;
+   }
+
+   h3 {
+      margin: 15px 0;
+   }
+}
+@media (max-width:854px) {
+   .advantages-container {
+      flex-direction: column;
+   }
+   .advantages-item {
+      margin: 15px 0;
+   }
+}

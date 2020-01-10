@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+//all
+
+.h2-container {
+  text-align: center;
+  padding: 150px 0 50px;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #333333;
+
+  span {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
+
+
+//media
+@media (max-width:769px) {
+
+    html,
+    body {
+        font-size: 13px;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    html,
+    body {
+        font-size: 11px;
+    }
+
+    .container {
+        max-width: 425px;
+    }
+}
+
+@media (max-width:321px) {
+
+    html,
+    body {
+        font-size: 9px;
+    }
+
+    .container {
+        max-width: 320px;
+    }
+}
+
+
+
+
+//import
+
+
+@import '_burger.scss';
+
+@import '_header.scss';
+
+@import '_adv.scss';
+
+@import '_fotorama';
+
+@import '_slider-production.scss';
+
+@import '_form.scss';
+
+@import '_standart.scss';
+
+@import '_tech.scss';
+
+@import '_feed.scss';
+
+@import '_answer.scss';
+
+@import '_question.scss';
+
+@import '_footer.scss';

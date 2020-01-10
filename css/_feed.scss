@@ -1,0 +1,26 @@
+.section-feedback {
+    background: linear-gradient(180deg, #5EA2F1 0%, #4C86DD 100%);
+    padding: 50px 0 75px;
+
+    .h2-container {
+        h2 {
+            color: #fff;
+        }
+    }
+}
+
+.feed-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.feed-item {
+    img {
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .feed-container {
+        flex-direction: column;
+    }
+}
